@@ -1,0 +1,24 @@
+
+
+.fileClass {
+    color: rgb(59, 185, 0);
+    margin-left: 0.3rem;
+}
+
+.dirClass {
+    color: blue;
+    margin-left: 0.4rem;
+}
+
+.filasEjercicio {
+    padding: 5px;
+    margin: 0.2rem;
+}
+
+.color1 {
+    background-color: rgb(235, 235, 235);
+}
+
+.color2 {
+    background-color: rgb(206, 206, 206);
+}
