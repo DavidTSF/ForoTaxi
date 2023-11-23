@@ -67,17 +67,31 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" ) {
             }
         ?>
         <title>Login si</title>
-
+        <link rel="stylesheet" href="static/css/inicio.css">
     </head>
 
     <body>
-
-        <h2>Login</h2>
-        
-        <form action="#" method="POST">
-            <input type="text" name="username" id="username"> <br>
-            <input type="password" name="password" id="password"> <br>            <input type="submit">
-        </form>
+    <form action="#" method="POST">
+    <img src="/static/media/img/taxi.png" alt="prueba" id="taxi">
+    <img src="/static/media/img/titulo.png" alt="titulo" id="title">
+    <div class="box">
+    <div class="form">
+        <h2> Inicio de sesión </h2>
+                <div class="inputBox">
+                    <input type="text" name="username" id="username" required="required">
+                    <span>Usuario</span>
+                    <i></i>
+                </div>      
+                    <div class="inputBox">
+                        <input type="password" name="password" id="password" required="required">
+                        <span>Contraseña</span>
+                        <i></i>
+                    </div>
+                <br>
+            <input type="submit" value="Inicio">
+        </div>        
+    </div>
+</form>
     </body>
 
 </html>
