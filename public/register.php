@@ -101,34 +101,4 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" && $_POST['passwordVer
             </form>        
         </div>
     </body>
-	<style>
-	header{
-	font-size:30px;
-	margin-bottom: 40px;
-	}
-	form{
-	padding: 30px;
-	background-color: rgba(170, 51, 106);
-	border: 1px solid black;
-	display: inline-block;
-	}
-	form span{
-	display: block;
-	margin-bottom: 20px;
-	}
-	form span label{
-	margin-right: 10px;
-	}
-	form input[type=text]{
-	width: 125px;
-	display: block;
-	}
-	form input[type=password]{
-	width:125px;
-	display: block;
-	}
-	form inpit{
-	margin-top: 10px;
-	}
-	<style>
 </html>
