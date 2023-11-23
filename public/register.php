@@ -69,7 +69,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" && $_POST['passwordVer
                 echo '<h4>Usuario ya existe</h4>';
             }
         ?>
-
+        <link rel="stylesheet" href="/static/css/registro.css">
 
     </head>
 
