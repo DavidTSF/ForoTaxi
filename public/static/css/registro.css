@@ -32,8 +32,8 @@ img[id="taxi"] {
 
 .box {
     position: relative;
-    width: 420px;
-    height: 360px;
+    width: 380px;
+    height: 450px;
     background: #1c1c1c;
     border-radius: 8px;
     overflow: hidden;
