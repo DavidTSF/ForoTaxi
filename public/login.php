@@ -66,7 +66,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" ) {
                 echo '<meta http-equiv="refresh" content="1; url=/">';
             }
         ?>
-
+        <title>Login si</title>
 
     </head>
 
