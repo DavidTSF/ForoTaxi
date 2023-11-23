@@ -74,19 +74,32 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" && $_POST['passwordVer
     </head>
 
     <body>
-
-
-
-        <h1>Registro</h1>
-        
+    <img src="/static/media/img/taxi.png" alt="prueba" id="taxi">
+    <img src="/static/media/img/titulo.png" alt="titulo" id="title">
+    <div class="box">
         <form action="#" method="POST">
-
-          <span> <label>Usuario: <input type="text" name="username" id="username"></label></span> <br>
-          <span> <label>Contraseña: <input type="password" name="password" id="password"></label></span> <br>
-          <span> <label>Confirmación de contraseña: <input type="password" name="passwordVerify" id="passwordVerify"></label></span> <br>
-          <span> <label>Enviar: <input type="submit"></label></span>
-
-        </form>
+        <div class="form">
+            <h2> Registrarse </h2>
+                    <div class="inputBox">
+                        <input type="text" name="username" id="username" required="required">
+                        <span>Usuario</span>
+                        <i></i>
+                    </div>      
+                        <div class="inputBox">
+                            <input type="password" name="password" id="password" required="required">
+                            <span>Contraseña</span>
+                            <i></i>
+                        </div>
+                        <div class="inputBox">
+                            <input type="password" name="passwordVerify" id="passwordVerify" required="required">
+                            <span>Confirmar contraseña</span>
+                            <i></i>
+                        </div>
+                    <br>
+                <input type="submit" value="Registrarse">     
+            </div>
+            </form>        
+        </div>
     </body>
 	<style>
 	header{
