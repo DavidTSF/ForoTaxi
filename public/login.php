@@ -71,10 +71,11 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" ) {
     </head>
 
     <body>
-    <form action="#" method="POST">
+    
     <img src="/static/media/img/taxi.png" alt="prueba" id="taxi">
     <img src="/static/media/img/titulo.png" alt="titulo" id="title">
     <div class="box">
+    <form action="#" method="POST">
     <div class="form">
         <h2> Inicio de sesión </h2>
                 <div class="inputBox">
@@ -89,9 +90,9 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" ) {
                     </div>
                 <br>
             <input type="submit" value="Inicio">
-        </div>        
+        </div>
+        </form>        
     </div>
-</form>
     </body>
 
 </html>
