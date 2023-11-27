@@ -31,7 +31,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" && $_POST['passwordVer
             $hashPass = hash('sha256', $password.$salt, false);
             $stmt = $pdo -> prepare('INSERT INTO users( username, password ) VALUES ( ? , ? )');
             $stmt -> execute ([$username, $hashPass]);
-            echo '<h1> Registro realizado </h1>';
+            #echo '<h1> Registro realizado </h1>';
         }
 
 
