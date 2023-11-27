@@ -25,7 +25,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" ) {
         $postPassword = hash("sha256", $_POST['password'].$salt, false);
 
         if ( $DBpassword == $postPassword )  {
-            echo "<h1> Login realizado! </h1>"; 
+ #           echo "<h1> Login realizado! </h1>";
             $redirect = true;
 
             $dataToken = "$username:$DBpassword:$usernameID";
