@@ -3,6 +3,10 @@
   --hover: #e5ff60;
 }
 
+p {
+  color: #e4cb58;
+}
+
 .buttons{
   vertical-align: top;
   display: inline;
