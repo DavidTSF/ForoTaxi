@@ -63,7 +63,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" ) {
     <head>
         <?php 
             if ($redirect) {
-                echo '<meta http-equiv="refresh" content="1; url=/">';
+                echo '<meta http-equiv="refresh" content="0; url=/">';
             }
         ?>
         <title>Login si</title>

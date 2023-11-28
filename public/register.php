@@ -62,7 +62,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" && $_POST['passwordVer
     <head>
         <?php 
             if ($redirect) {
-                echo '<meta http-equiv="refresh" content="1; url=/">';
+                echo '<meta http-equiv="refresh" content="0; url=/">';
             }
             elseif ($refresh) {
                 echo '<meta http-equiv="refresh" content="2; url=/register.php">';
