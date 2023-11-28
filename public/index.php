@@ -46,7 +46,7 @@ function checkIfLogged ($userArray) {
 <html>
 
 <head>
-
+    <link rel="stylesheet" href="static/css/index.css">
 </head>
 
 
