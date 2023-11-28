@@ -74,7 +74,7 @@ if ( $_POST['username'] != "" && $_POST['password'] != "" && $_POST['passwordVer
     </head>
 
     <body>
-    <img src="/static/media/img/taxi.png" alt="prueba" id="taxi">
+    <a href="/index.php"><img src="/static/media/img/taxi.png" alt="prueba" id="taxi"></a>
     <img src="/static/media/img/titulo.png" alt="titulo" id="title">
     <div class="box">
         <form action="#" method="POST">

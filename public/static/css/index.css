@@ -1,0 +1,112 @@
+.boton {
+  --color: #ffef60;
+  --hover: #e5ff60;
+}
+
+.buttons{
+  vertical-align: top;
+  display: inline;
+  padding: 0.5em;
+}
+
+ul.menu {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  white-space: nowrap;
+}
+ul.menu ul {
+  display: none;
+}
+ul.menu li {
+  position: relative;
+  display: block;
+}
+ul.menu ul li {
+  display: block;
+}
+
+ul.menu > li:hover > ul {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: -21%;
+}
+
+ul.menu ul li:hover > ul {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.boton:hover,
+.boton:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  width: 170px;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+code {
+  color: #e4cb58;
+  font: inherit;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  background-color: #23242a;
+  align-items: none;
+}
+
+div.buttons[id="menu"]{
+margin-left: 85%;
+}
+
+ 
+ @media screen and (max-width: 1200px) {
+  div.buttons[id="menu"]{
+     margin-left: 75%;
+  }
+ }
+ 
+ @media screen and (max-width: 992px) {
+  div.buttons[id="menu"]{
+     margin-left: 65%;
+  }
+ }
+ 
+ @media screen and (max-width: 768px) {
+  div.buttons[id="menu"]{
+     margin-left: 55%;
+  }
+ }
+ 
+ @media screen and (max-width: 576px) {
+  div.buttons[id="menu"]{
+     margin-left: 45%;
+  }
+ }
